@@ -1,10 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'rubik', sans-serif;
+    font-weight: 450;
 }
 
 body {
     background: #abd1e6;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 20px;
 }
 
 header {
@@ -12,13 +32,17 @@ header {
     margin: 30px auto;
 }
 
-div#wrapper {
+div.wrapper {
     display: flex;
     flex-direction: row;
     width: 80vw;
     height: 100vh;
     margin: auto;
     /*border: solid 2px red;*/
+}
+
+div.long {
+    height: 270vh;
 }
 
 nav {
@@ -65,17 +89,17 @@ img.logo {
 }
 
 table {
-    /*border-spacing: 0 0 0 0;*/
-    border: solid 2px deeppink;
+    /*border: solid 2px red;*/
+    width: 100%;
 }
 
-td {
+table td {
     padding-bottom: 30px;
-    border: solid 2px green;
+    /*border: solid 2px green;*/
 }
 
 div {
-    border: solid 2px red;
+    /*border: solid 2px red;*/
 }
 
 div.flexbox {
@@ -86,21 +110,35 @@ div.flexbox {
     /*text-align: center;*/
     /*margin-top: 30px;*/
     padding: 0;
-    border: solid 2px blue;
+    /*border: solid 2px blue;*/
+}
+
+div.textbox {
+    padding: 10px 20px;
 }
 
 /* Home */
 
 img#me {
-    /*display: block;*/
     object-fit: cover;
-    width: 300px;
-    height: 400px;
+    width: 400px;
     /*border: solid 3px red;*/
-    /*border-radius: 50%;*/
 }
 
-/*div#about-me {*/
-/*    padding: 20px;*/
-/*    font-size: 30px;*/
-/*}*/
+/* Documents */
+
+iframe#resume {
+    width: 100%;
+    height: 1200px;
+}
+
+iframe#psm {
+    width: 100%;
+    height: 820px;
+}
+
+/* Education */
+
+img#cds {
+    width: 400px;
+}
