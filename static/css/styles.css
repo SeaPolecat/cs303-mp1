@@ -69,6 +69,10 @@ table {
     /*border: solid 2px red;*/
 }
 
+table td {
+    vertical-align: top;
+}
+
 /* Home */
 
 img#me {
