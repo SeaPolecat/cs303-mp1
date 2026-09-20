@@ -52,6 +52,7 @@ nav a {
 main {
     width: 85%;
     background-color: rgb(255 255 255 / 0.8);
+    padding: 30px;
 }
 
 footer {
@@ -59,24 +60,27 @@ footer {
     margin: 30px auto;
 }
 
-/* Home */
-
-main#home {
-    display: flex;
-    flex-direction: row;
+img.logo {
+    width: 100px;
 }
+
+table {
+    border-spacing: 30px;
+    /*border: solid 2px red;*/
+}
+
+/* Home */
 
 img#me {
     /*display: block;*/
     object-fit: cover;
     width: 300px;
     height: 400px;
-    padding: 20px;
     /*border: solid 3px red;*/
     /*border-radius: 50%;*/
 }
 
-div#about-me {
-    padding: 20px;
-    font-size: 30px;
-}
+/*div#about-me {*/
+/*    padding: 20px;*/
+/*    font-size: 30px;*/
+/*}*/
