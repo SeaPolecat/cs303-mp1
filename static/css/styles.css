@@ -65,12 +65,28 @@ img.logo {
 }
 
 table {
-    border-spacing: 30px;
-    /*border: solid 2px red;*/
+    /*border-spacing: 0 0 0 0;*/
+    border: solid 2px deeppink;
 }
 
-table td {
-    vertical-align: top;
+td {
+    padding-bottom: 30px;
+    border: solid 2px green;
+}
+
+div {
+    border: solid 2px red;
+}
+
+div.flexbox {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    /*flex-direction: column;*/
+    /*text-align: center;*/
+    /*margin-top: 30px;*/
+    padding: 0;
+    border: solid 2px blue;
 }
 
 /* Home */
