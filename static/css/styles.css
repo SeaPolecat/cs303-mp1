@@ -1,3 +1,4 @@
+/* importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
@@ -17,6 +18,7 @@ header {
     margin: /*30px*/1.98vw auto;
 }
 
+/* wraps around nav and main */
 div.wrapper {
     display: flex;
     flex-direction: row;
@@ -56,11 +58,13 @@ main {
     padding: /*30px*/1.98vw;
 }
 
+/* flex div that flexes its items in a row for desktop, column for mobile */
 div.flexbox {
     display: flex;
     flex-direction: row;
 }
 
+/* div that contains mainly text */
 div.textbox {
     padding: /*10px*/0.66vw /*20px*/1.32vw;
 }
@@ -101,11 +105,13 @@ a {
     color: deepskyblue;
 }
 
+/* makes items conform to a vertical poster size */
 .poster-size {
     object-fit: cover;
     width: 45%;
 }
 
+/* makes items conform to a horizontal thumbnail-like size */
 .thumbnail-size {
     object-fit: cover;
     aspect-ratio: 16 / 9;
