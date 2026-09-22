@@ -134,6 +134,36 @@ iframe#psm {
     width: 100%;
 }
 
+/* projects page */
+
+div.calculator {
+    color: deeppink;
+    text-align: center;
+    background-color: #ffd9de;
+    width: 100%;
+    padding-top: /*70px*/4.61vw;
+}
+
+input {
+    font-size: calc(5px + 1vw);
+    width: 45%;
+    height: /*50px*/3.29vw;
+}
+
+button {
+    background-color: pink;
+    border: solid /*2px*/0.13vw deeppink;
+    font-size: calc(5px + 1vw);
+    width: 15%;
+    height: 15%;
+    margin: /*20px*/1.32vw 0;
+    border-radius: /*30px*/1.97vw;
+}
+
+button:hover {
+    background-color: white;
+}
+
 
 @media screen and (max-width: 1000px) {
 
@@ -162,10 +192,15 @@ iframe#psm {
     }
 
     nav a {
-        background-color: darkblue;
+        color: #434343;
+        background-color: lightblue;
         font-size: calc(8px + 1vw);
         padding: /*8px*/0.53vw /*10px*/0.66vw;
         border-radius: /*10px*/0.66vw;
+    }
+
+    nav a:hover {
+        color: white;
     }
 
     main {

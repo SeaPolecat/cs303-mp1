@@ -10,7 +10,7 @@ function getNumbers()  {
 }
 
 function showAnswer(ans) {
-    answer.innerText = ans;
+    answer.innerText = "Answer: " + ans;
 
     if (ans < 0)
         answer.style.color = "red";
@@ -60,6 +60,6 @@ function exponentiate() {
 function clearAnswer() {
     input1.value = "";
     input2.value = "";
-    answer.innerText = "Output";
+    answer.innerText = "";
     answer.style.color = "black";
 }
